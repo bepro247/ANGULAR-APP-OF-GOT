@@ -1,0 +1,137 @@
+
+
+  html,body{
+    background-color: black;
+  }
+
+
+@media (min-width: 768px){
+
+    .container12 {
+        max-width: 720px;
+        padding : 60px 5px 0px 0px;
+    }
+    }
+    
+    @media (max-width:415px){
+        .container12 {
+            width: 100%;
+            padding-right: 15px;
+            padding-left: 15px;
+            padding-top: 50px;
+        }  
+    }
+  
+    h2 {
+        text-align: center;
+        margin: 30px 0;
+    }
+    .demo-card {
+      width: 100%;
+      max-width: 500px;
+      margin: 0 auto 100px;
+    }
+    h4.title {
+      text-align: center;
+    }
+
+
+
+
+#dataSection {
+    display: inline;
+}
+.userDetails{
+    border:2px solid #ddd;border-radius: 0.5em;
+}
+
+.coverHeight {
+    max-height: 300px;
+    overflow: hidden;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.userName {
+    font-size: 3vw;
+}
+
+.profileHeight {
+    border: 0.5vw solid white;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px silver;
+}
+
+.rowStyle {
+    border-bottom: 1px solid #ddd;
+    margin-top: 1em !important;
+}
+
+.rowStyle div {
+    padding: 1em;
+}
+.textcol{
+    color: aliceblue;
+}
+
+
+
+
+
+@font-face{
+    font-family:GOT;
+    src: url("../../assets/fonts/GOT.ttf") 
+}
+
+
+
+
+
+.containerlist {
+  
+    text-align: center;
+   
+    height: max-content;
+   
+    
+}
+
+.listmov{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+    position: relative;
+    color: darkgoldenrod;
+    text-align: center;
+    
+}
+.textme{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    position: relative;
+    color: red;
+    cursor: pointer;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.container {
+ 
+    max-width: 1140px;
+    text-align: center;
+   
+    
+
+}
+
+.textme:hover{
+    color: blue
+}
+
+
+
+.card-body{
+    background-color: lightgrey;
+   
+    
+}

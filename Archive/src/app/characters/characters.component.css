@@ -1,0 +1,49 @@
+@media (min-width: 768px){
+
+  
+    .listmov{
+        font-size: 20px;
+    }
+    }
+    
+    @media (max-width:415px){
+     
+        .listmov{
+            font-size: 10px;
+        } 
+    }
+  
+
+    .listmov{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 50px;
+        position: relative;
+        color: red;
+    }
+    .textme{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 30px;
+        position: relative;
+        color: black;
+        cursor: pointer;
+        font-weight: bolder;
+    }
+    
+    .container {
+     
+        max-width: 1140px;
+        text-align: center;
+    
+    }
+
+    .textme:hover{
+         color: yellow;
+    }
+
+
+
+
+
+      .card-body{
+          background-color: lightskyblue;
+      }

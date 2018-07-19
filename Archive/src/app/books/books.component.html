@@ -1,0 +1,31 @@
+
+
+
+
+<ng-progress></ng-progress>
+<div class="container">
+  <div class="card-deck">
+      <div class="card mb-4">
+          <img class="card-img-top img-fluid" src="../assets/images/got15.jpg" alt="Card image cap">
+          <div class="card-body" >
+              <h4 class="card-title" class="listmov">BOOKS</h4> <br><br>
+              <div *ngFor="let findme of findme ">
+              <ul style="list-style:none; list-style-position:inside;"> <li (click)="gotme(findme.name)" class="textme"> <i class="icon-hand-right"></i> {{findme.name | uppercase}} </li></ul>
+             </div>
+
+           
+
+
+             
+
+          </div>
+      </div>
+      </div>
+      </div>
+     
+      
+   
+
+
+      
+  

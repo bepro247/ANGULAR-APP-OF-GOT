@@ -1,0 +1,31 @@
+<ng-progress [positionUsing]="'marginLeft'" [direction]="'leftToRightIncreased'" [color]="'#4286f4'" [trickleSpeed]="500"
+    [thick]="true" [ease]="'easeInSine'">
+</ng-progress>
+
+<button (click)="backClicked()" style="background-color: yellow;">
+    <img src="https://png.icons8.com/color/50/000000/back.png">GO BACK</button>
+<br>
+<br>
+<div class="container">
+    <div class="card-deck">
+        <div class="card mb-4">
+            <img class="card-img-top img-fluid" src="../assets/images/got11.jpg" alt="Card image cap">
+            <div class="card-body">
+                <h4  class="listmov">CHARACTERS OF THE BOOK : {{value | uppercase}} </h4>
+                <br>
+                <br>
+                <div *ngFor="let findme of sub">
+                    <ul style="list-style: none;">
+                        <li (click)="gethouse(findme.name)" class="textme"> * {{findme.name}} </li>
+                    </ul>
+                </div>
+
+
+
+
+
+            </div>
+        </div>
+
+
+        <router-outlet></router-outlet>
